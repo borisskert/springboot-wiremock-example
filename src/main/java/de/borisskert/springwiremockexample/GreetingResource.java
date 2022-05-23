@@ -35,6 +35,7 @@ public class GreetingResource {
         return client.get()
                 .uri(greetingUrl)
                 .retrieve()
-                .bodyToMono(String.class);
+                .bodyToMono(String.class)
+                .map(body -> "Greeting response: " + body);
     }
 }
