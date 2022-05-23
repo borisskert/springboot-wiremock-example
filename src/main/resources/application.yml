@@ -1,0 +1,4 @@
+---
+example:
+  remote:
+    url: http://my-remote-server:8080/greeting

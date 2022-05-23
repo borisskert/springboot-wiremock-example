@@ -1,0 +1,4 @@
+---
+example:
+  remote:
+    url: http://localhost:${wiremock.server.port}/greeting

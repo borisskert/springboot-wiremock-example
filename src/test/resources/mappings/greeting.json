@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/greeting"
+  },
+  "response": {
+    "status": 200,
+    "body": "Hello World! from remote",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}
